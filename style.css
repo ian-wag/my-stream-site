@@ -1,7 +1,7 @@
 body {
-  background: linear-gradient(-45deg, #effbff, #a6c5ff);
-  background-size: 400% 400%;
-  animation: gradient 240000ms ease infinite;
+  background: linear-gradient(-45deg, #effbff, #a6c5ff); /*a6c5ff);*/
+  background-size: 450% 450%;
+  animation: gradient 2400ms ease infinite;
 }
 
 .myName {
@@ -22,11 +22,11 @@ body {
     background-position: 0% 50%;
   }
 }
-
 footer {
   position: absolute;
   bottom: 0;
 }
+
 .footerFlex {
   display: flex;
   justify-content: center;
