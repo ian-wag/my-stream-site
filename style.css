@@ -1,15 +1,9 @@
+/*background gradient that slowly changes color*/
 body {
   background: linear-gradient(-45deg, #e3d1ff, #9146ff); /*a6c5ff);*/
   background-size: 450% 450%;
   animation: gradient 240000ms ease infinite;
   height: 100vh;
-}
-
-.myName {
-  font-family: "Inconsolata", monospace;
-  font-size: 200px;
-  padding: 0;
-  margin: 0;
 }
 
 @keyframes gradient {
@@ -22,6 +16,14 @@ body {
   100% {
     background-position: 0% 50%;
   }
+}
+
+/*the big musbynice*/
+.myName {
+  font-family: "Inconsolata", monospace;
+  font-size: 200px;
+  padding: 0;
+  margin: 0;
 }
 
 .twitch .twitch-video {
