@@ -22,7 +22,7 @@ body {
 .myName {
   font-family: "Inconsolata", monospace;
   font-size: 200px;
-  padding: 0;
+  padding-left: 2rem;
   margin: 0;
 }
 
@@ -34,18 +34,20 @@ body {
 
 .twitch .twitch-video iframe {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 70%;
+  height: 70%;
   top: 0;
+  padding-left: 22%;
 }
 
 .twitch .twitch-chat {
   height: 400px;
+  padding-right: 5%;
 }
 
 .twitch .twitch-chat iframe {
-  width: 100%;
-  height: 100%;
+  width: 70%;
+  height: 70%;
 }
 
 @media screen and (min-width: 850px) {
