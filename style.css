@@ -4,6 +4,7 @@ body {
   background-size: 450% 450%;
   animation: gradient 240000ms ease infinite;
   height: 100vh;
+  padding-left: 2em;
 }
 
 @keyframes gradient {
@@ -22,7 +23,6 @@ body {
 .myName {
   font-family: "Inconsolata", monospace;
   font-size: 5rem;
-  padding-left: 2rem;
   margin: 0;
 }
 
@@ -37,7 +37,6 @@ body {
   width: 80%;
   height: 80%;
   top: 0;
-  padding-left: 2rem;
 }
 
 .twitch .twitch-chat {
@@ -72,10 +71,11 @@ body {
 
 footer {
   position: fixed;
-  display: flex;
+  display: grid;
+  grid-template-areas: ". madeBy links";
+  grid-template-columns: 1fr 1fr 1fr;
   bottom: 0;
   width: 100%;
-  justify-content: center;
 }
 
 /*.footerFlex {
@@ -85,7 +85,10 @@ footer {
 }*/
 
 a {
-  padding-right: 20px;
+  grid-area: links;
+  padding-right: 5px;
+  color: black;
+  justify-items: end;
 }
 
 a:visited {
@@ -93,6 +96,7 @@ a:visited {
 }
 
 #madeBy {
+  grid-area: madeBy;
   font-family: "Inconsolata", monospace;
   font-size: 12px;
   font-weight: 200;
