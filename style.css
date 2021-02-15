@@ -4,7 +4,8 @@ body {
   background-size: 450% 450%;
   animation: gradient 240000ms ease infinite;
   height: 100vh;
-  padding-left: 2em;
+  margin-right: 2em;
+  margin-left: 2em;
 }
 
 @keyframes gradient {
@@ -34,19 +35,19 @@ body {
 
 .twitch .twitch-video iframe {
   position: absolute;
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
   top: 0;
 }
 
 .twitch .twitch-chat {
   height: 400px;
-  padding-right: 2rem;
 }
 
 .twitch .twitch-chat iframe {
-  width: 100%;
-  height: 90%;
+  width: 70%;
+  height: 100%;
+  padding-left: 1em;
 }
 
 @media screen and (min-width: 850px) {
@@ -90,7 +91,7 @@ footer {
   grid-area: links;
   color: black;
   justify-self: end;
-  padding-right: 2rem;
+  margin-right: 2em;
 }
 
 a:visited {
