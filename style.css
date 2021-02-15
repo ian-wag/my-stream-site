@@ -41,7 +41,7 @@ body {
 
 .twitch .twitch-chat {
   height: 400px;
-  padding-right: 5%;
+  padding-right: 2rem;
 }
 
 .twitch .twitch-chat iframe {
@@ -74,7 +74,9 @@ footer {
   display: grid;
   grid-template-areas: ". madeBy links";
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
   bottom: 0;
+  left: 0;
   width: 100%;
 }
 
@@ -84,11 +86,11 @@ footer {
   padding-right: 20px;
 }*/
 
-a {
+.a-links {
   grid-area: links;
-  padding-right: 5px;
   color: black;
-  justify-items: end;
+  justify-self: end;
+  padding-right: 2rem;
 }
 
 a:visited {
@@ -99,5 +101,6 @@ a:visited {
   grid-area: madeBy;
   font-family: "Inconsolata", monospace;
   font-size: 12px;
-  font-weight: 200;
+  font-weight: 400;
+  justify-self: center;
 }
