@@ -1,3 +1,7 @@
+html {
+  overflow-x: hidden;
+}
+
 /*background gradient that slowly changes color*/
 body {
   background: linear-gradient(-45deg, #e3d1ff, #9146ff); /*a6c5ff);*/
