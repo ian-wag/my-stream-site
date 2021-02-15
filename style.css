@@ -21,12 +21,13 @@ body {
 }
 
 /*the big musbynice*/
-.myName {
+.my-name {
   font-family: "Inconsolata", monospace;
-  font-size: 5rem;
+  font-size: 4em;
   margin: 0;
 }
 
+/*twitch player containers*/
 .twitch .twitch-video {
   padding-top: 56.25%;
   position: relative;
@@ -45,7 +46,7 @@ body {
 }
 
 .twitch .twitch-chat iframe {
-  width: 70%;
+  width: 80%;
   height: 100%;
   padding-left: 1em;
 }
@@ -81,17 +82,29 @@ footer {
   width: 100%;
 }
 
-/*.footerFlex {
-  display: flex;
-  justify-content: center;
-  padding-right: 20px;
-}*/
-
 .a-links {
   grid-area: links;
-  color: black;
   justify-self: end;
   margin-right: 2em;
+  cursor: pointer;
+}
+
+i.fab {
+  color: black;
+}
+
+i.fab:hover {
+  color: white;
+  animation: hover 300ms ease-in-out forwards;
+}
+
+@keyframes hover {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 a:visited {
