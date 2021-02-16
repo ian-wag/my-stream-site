@@ -7,9 +7,8 @@ body {
   background: linear-gradient(-45deg, #e3d1ff, #9146ff); /*a6c5ff);*/
   background-size: 450% 450%;
   animation: gradient 240000ms ease infinite;
-  height: 100vh;
-  margin-right: 2em;
-  margin-left: 2em;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 @keyframes gradient {
@@ -27,8 +26,9 @@ body {
 /*the big musbynice*/
 .my-name {
   font-family: "Inconsolata", monospace;
-  font-size: 4em;
+  font-size: 4rem;
   margin: 0;
+  margin-bottom: 2rem;
 }
 
 /*twitch player containers*/
@@ -98,7 +98,7 @@ i.fab {
 }
 
 i.fab:hover {
-  color: white;
+  color: #ebddff;
   animation: hover 300ms ease-in-out forwards;
 }
 
